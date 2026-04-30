@@ -23,7 +23,7 @@ Both scripts call `exiftool` bare. It must be on your system PATH or nothing run
 ## Setup
 
 1. Clone the repo
-2. Make a copy of .env.example, place it in the folder above this project, and rename the file to .env:
+2. Make a copy of `.env.example`, place it in the folder above this project, and rename the file to `.env`:
    ```
    Scripts\
    ├── .env          ← your config lives here
@@ -32,7 +32,7 @@ Both scripts call `exiftool` bare. It must be on your system PATH or nothing run
        ├── monitor-copyright.ps1
        └── install.ps1
    ```
-3. Edit `.env` with your name, copyright string, website, etc.
+3. Open the `.env` file in a text editor and replace the placeholder values with your own info (name, copyright, website).
 4. Run `install.ps1` once to add the right-click context menu:
    ```powershell
    .\install.ps1
