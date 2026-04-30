@@ -1,7 +1,8 @@
 # izored Copyright Tool
 
-Embed EXIF/IPTC/XMP copyright metadata into images via right-click or PowerShell.
+Update yoru image's COPYRIGHTS ? Right-click and done.
 
+Tag your images with EXIF/IPTC/XMP copyright metadata with noob-friendly context menu shortcut.
 ---
 
 ## Prerequisites — exiftool (required)
