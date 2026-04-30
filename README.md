@@ -33,7 +33,7 @@ Both scripts call `exiftool` bare. It must be on your system PATH or nothing run
        └── install.ps1
    ```
 3. Open the `.env` file in a text editor and replace the placeholder values with your own info (name, copyright, website).
-4. Run `install.ps1` once to add the right-click context menu:
+4. Run `install.ps1` only **once** to add the right-click context menu:
    ```powershell
    .\install.ps1
    ```
