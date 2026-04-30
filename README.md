@@ -1,6 +1,6 @@
 # izored Copyright Tool
 
-Update yoru image's COPYRIGHTS ? Right-click and done.
+Update your image's COPYRIGHTS ? Right-click and done.
 
 Tag your images with EXIF/IPTC/XMP copyright metadata with noob-friendly context menu shortcut.
 ---
