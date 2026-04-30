@@ -42,10 +42,10 @@ Both scripts call `exiftool` bare. It must be on your system PATH or nothing run
 
 ## Usage
 
-### Right-click a folder
-After running `install.ps1`, right-click any folder → **Apply Copyright**.
+### Right-click 'within' a folder where your images are present
+ → **Apply Copyright**.
 
-### Command line
+### Or the 'Command line' if you prefer
 ```powershell
 .\apply-copyright.ps1 "C:\path\to\images"
 ```
