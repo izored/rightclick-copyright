@@ -1,0 +1,9 @@
+# Local config — never commit real values
+../.env
+
+# Generated/machine-specific registry files (use install.ps1 instead)
+copyright_context_menu.reg
+add_copyright_context.reg
+
+# exiftool backups
+*.orig
