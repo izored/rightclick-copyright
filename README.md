@@ -25,7 +25,7 @@ Both scripts call `exiftool` bare. It must be on your system PATH or nothing run
 1. Clone the repo
 2. Make a copy of `.env.example`, place it in the folder above this project, and rename the file to `.env`:
    ```
-   Scripts\
+   FolderOfYourChoosing\
    ├── .env          ← your config lives here
    └── copyright\    ← repo root
        ├── apply-copyright.ps1
