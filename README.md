@@ -23,7 +23,7 @@ Both scripts call `exiftool` bare. It must be on your system PATH or nothing run
 ## Setup
 
 1. Clone the repo
-2. Copy `.env.example` to `.env` **one folder above** the repo root:
+2. Make a copy of .env.example, place it in the folder above this project, and rename the file to .env:
    ```
    Scripts\
    ├── .env          ← your config lives here
