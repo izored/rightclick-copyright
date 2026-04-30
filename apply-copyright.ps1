@@ -36,12 +36,18 @@ Write-Host ""
 Write-Host "  Folder : $FolderPath" -ForegroundColor Gray
 Write-Host ""
 
+$imgIncludes = @('*.jpg','*.jpeg','*.png','*.tif','*.tiff','*.gif','*.bmp',
+                 '*.webp','*.heic','*.heif','*.avif',
+                 '*.cr2','*.cr3','*.nef','*.arw','*.dng','*.rw2',
+                 '*.orf','*.raf','*.pef','*.srw','*.psd')
+
 $count = 0
-Get-ChildItem -Path "$FolderPath\*" -Include *.jpg, *.jpeg, *.png -File -Recurse | ForEach-Object {
+Get-ChildItem -Path $FolderPath -Include $imgIncludes -File -Recurse | ForEach-Object {
     $file = $_.FullName
     Write-Host "  [+] $(Split-Path $file -Leaf)" -ForegroundColor DarkGray
     $count++
 
+    # Requires exiftool in PATH — see README.md
     & exiftool -charset utf8 -codedcharacterset=utf8 `
         -Artist="$ARTIST_NAME" `
         -Creator="$CREATOR_CREDIT" `

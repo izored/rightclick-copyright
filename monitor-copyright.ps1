@@ -28,9 +28,14 @@ $action = {
     $file = $Event.SourceEventArgs.FullPath
     $extension = [System.IO.Path]::GetExtension($file).ToLower()
 
-    if ($extension -in @('.jpg', '.jpeg', '.png')) {
+    $imgExtensions = @('.jpg','.jpeg','.png','.tif','.tiff','.gif','.bmp',
+                        '.webp','.heic','.heif','.avif',
+                        '.cr2','.cr3','.nef','.arw','.dng','.rw2',
+                        '.orf','.raf','.pef','.srw','.psd')
+    if ($extension -in $imgExtensions) {
         Start-Sleep -Seconds 2
 
+        # Requires exiftool in PATH — see README.md
         & exiftool -charset utf8 -codedcharacterset=utf8 `
             -Artist="$ARTIST_NAME" `
             -Creator="$CREATOR_CREDIT" `
