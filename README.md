@@ -83,6 +83,22 @@ Watches `WATCH_FOLDER` from `.env`. Tags new images automatically as they land. 
 
 ---
 
+## Uninstall
+
+Run `uninstall.ps1` to remove the right-click context menu:
+
+```powershell
+.\uninstall.ps1
+```
+
+Removes these two registry keys:
+- `HKCU:\SOFTWARE\Classes\Directory\shell\ApplyCopyright`
+- `HKCU:\SOFTWARE\Classes\Directory\Background\shell\ApplyCopyright`
+
+To fully clean up: delete the repo folder and your `.env` file.
+
+---
+
 ## Configuration (`.env`)
 
 | Key | Used in | Purpose |
