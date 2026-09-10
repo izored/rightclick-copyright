@@ -1,5 +1,7 @@
 # izored Copyright Tool
 
+[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/izored) [![Buy me a coffee](https://img.shields.io/badge/buy%20me%20a%20coffee-ffdd00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/izored)
+
 Update your image's COPYRIGHTS ? Right-click and done.
 
 Tag your images with EXIF/IPTC/XMP copyright metadata with noob-friendly context menu shortcut.
